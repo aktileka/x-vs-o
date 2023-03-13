@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://phonoteka.org/uploads/posts/2021-07/1625572700_10-phonoteka-org-p-zastavka-na-rabochii-stol-pk-geimerskie-kr-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{    
+margin: 0;
+padding: 0;
+}
+
+.content{
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+}
+
+#area{
+    width: 156px;
+    border: 1px solid white;
+    margin: 0 auto;
+    font-size: 0;
+    color: azure;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid white;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+cell:hover {
+    background-color: red;
+}
+
+.currentPlayer{
+   color: wheat;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat table{
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td{
+    border:  1px solid white;
+    padding: 5px;
+    text-align: center;
+    color: azure;
+}
